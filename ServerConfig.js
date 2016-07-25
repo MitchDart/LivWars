@@ -1,6 +1,10 @@
 var config = {
 	include: [
-		//{name: 'MyClassName', path: './gameClasses/MyClassFileName'},
+		{name: 'MainBoard', path: './gameClasses/MainBoard'},
+		{name: 'Board', path: './gameClasses/Board'},
+		{name: 'Cross', path: './gameClasses/Cross'},
+		{name: 'Naught', path: './gameClasses/Naught'},
+		{name: 'Block', path: './gameClasses/Block'}
 	]
 };
 
